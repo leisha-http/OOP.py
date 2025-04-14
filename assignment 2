@@ -1,0 +1,12 @@
+class dog:
+    def move(self):
+        return "running"
+    def speak(self):
+        return "woof"
+    class cat
+    def move(self):
+        return "climbing"
+    def speak(self):
+        return "meow"
+    print(animal.move)
+    print(animal.speak)
