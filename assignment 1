@@ -1,0 +1,17 @@
+class blanket:
+    def init(self, colour, size):
+        self.colour = colour
+        self.size = size
+    def display_info(self):
+        print(f"Colour: {self.colour}, Size: {self.size}")
+
+        blanketdetails = blanket("sky blue", "small", )
+class patternedblanket:
+    def init (self, colour, size, pattern, patterncolour):
+        self.colour = colour 
+        self.size = size
+        self.pattern = pattern
+        self.patterncolour = patterncolour
+    def display_info(self):
+        print(f"Colour: {self.colour}, Size: {self.size}, Pattern: {self.pattern}, Pattern Colour: {self.patterncolour}")
+        blanketdetails = patternedblanket("sky blue", "small", "butterflies", "purple")
